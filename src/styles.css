@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+.App {
+  font-family: sans-serif;
+  color: #000;
+}
+
+body {
+  background: #87b5b5;
+}
+textarea {
+  background: #c0d8d8;
+  text-align: left;
+  width: 590px;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+.preview-text {
+  padding: 20px 10px;
+  text-align: left;
+  width: 790px;
+  background: #c0d8d8;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+.editor-pannel,
+.preview-pannel {
+  margin: 30px 0;
+  display: grid;
+  place-items: center;
+}
+
+.toolBar {
+  font-family: "Russo One", swap;
+  background: #4aa3a3;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  align-items: center;
+  padding: 0 5px;
+}
+button {
+  background: transparent;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
